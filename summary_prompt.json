@@ -1,0 +1,17 @@
+{
+    "name": null,
+    "input_variables": [
+        "length",
+        "paper_name",
+        "style"
+    ],
+    "optional_variables": [],
+    "output_parser": null,
+    "partial_variables": {},
+    "metadata": null,
+    "tags": null,
+    "template": "You are an expert research assistant. Summarize the research paper titled '{paper_name}' in the style of '{style}' with a length of approximately {length} words.",
+    "template_format": "f-string",
+    "validate_template": false,
+    "_type": "prompt"
+}

@@ -1,0 +1,67 @@
+# --- Python ---
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.pkl
+*.pickle
+
+# Virtual environment
+venv/
+.env/
+.env.*
+.venv/
+
+# Byte-compiled / caches
+*.egg-info/
+*.egg
+dist/
+build/
+
+# --- Jupyter Notebooks ---
+.ipynb_checkpoints/
+*.nbconvert/
+
+# --- LLM / ML Cache ---
+# Hugging Face cache
+~/.cache/huggingface/
+huggingface/
+hf_cache/
+cache/
+transformers_cache/
+
+# Model weights / checkpoints
+*.bin
+*.safetensors
+*.pt
+*.h5
+*.ckpt
+checkpoints/
+models/
+weights/
+
+# --- Data ---
+data/
+datasets/
+*.csv
+*.tsv
+*.jsonl
+*.db
+*.sqlite
+*.sqlite3
+
+# --- Logs ---
+logs/
+*.log
+
+# --- Environment Variables ---
+*.env
+.env.local
+.env.production
+.env.development
+
+# --- OS / Editor ---
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
